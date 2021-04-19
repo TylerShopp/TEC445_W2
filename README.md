@@ -18,5 +18,4 @@ I **really** struggled with Gitbash for a few days, I was trying to:
 
 >Create new folder, and we are back in action!
 
-![Alt Text](http://imgur.com/YTxq9YJ
-)
+![Alt Text](http://imgur.com/YTxq9YJ)
