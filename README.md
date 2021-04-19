@@ -19,3 +19,11 @@ I **really** struggled with Gitbash for a few days, I was trying to:
 >Create new folder, and we are back in action!
 
 ![Alt Text](https://media.giphy.com/media/hcZZmrMHsUSNG/giphy.gif)
+
+**IT WORKS!!**
+
+>I am not sure what I did differently but we now have a cool dog gif in the repo
+
+##URLS
+[Central Penn](https://centralpenn.edu)
+[Google](https://google.com)
