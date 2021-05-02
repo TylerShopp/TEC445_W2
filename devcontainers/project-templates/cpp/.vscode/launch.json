@@ -14,7 +14,7 @@
             // change to directory where you have the Makefile
             "cwd": "${workspaceRoot}",
             // this option is very important when working with C++ standard library containers
-            "valuesFormatting": "prettyPrinters" 
+           
         },
     ]
 }
