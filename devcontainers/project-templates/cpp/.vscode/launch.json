@@ -4,17 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+  
         {
             "type": "gdb",
             "request": "launch",
             // change name to reflect the program you wish to debug
-            "name": "Debug 'hello' with GDB",
+            "name": "Debug 'Studentreport' with GDB",
             // change to name of executable
-            "target": "./hello",
+            "target": "./Studentreport",
             // change to directory where you have the Makefile
             "cwd": "${workspaceRoot}",
             // this option is very important when working with C++ standard library containers
            
-        },
+        }
+        
     ]
 }

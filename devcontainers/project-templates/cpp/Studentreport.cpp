@@ -8,7 +8,7 @@ class student
 {
 int rollno;
 char name[50];
-int eng_marks, math_marks, sci_marks, lang2_marks, cs_marks;
+int eng_marks, math_marks, sci_marks, lang2_marks, cs_marks, psyc_marks;
 double average;
 char grade;
 
@@ -21,7 +21,7 @@ int retrollno() const;
 
 void student::calculate()
 {
-average=(eng_marks+math_marks+sci_marks+lang2_marks+cs_marks)/5.0;
+average=(eng_marks+math_marks+sci_marks+lang2_marks+cs_marks+psyc_marks)/5.0;
 if(average>=90)
 grade='A';
 else if(average>=75)
@@ -50,6 +50,8 @@ cout<<"\nEnter marks in 2nd language:  ";
 cin>>lang2_marks;
 cout<<"\nEnter marks in Computer science:  ";
 cin>>cs_marks;
+cout<<"\nEnter marks in AP Psycology:  ";
+cin>>psyc_marks;
 calculate();
 }
 void student::showdata() const
@@ -61,6 +63,7 @@ cout<<"\nMaths : "<<math_marks;
 cout<<"\nScience : "<<sci_marks;
 cout<<"\nLanguage2 : "<<lang2_marks;
 cout<<"\nComputer Science :"<<cs_marks;
+cout<<"\nAP Psycology : "<<psyc_marks;
 cout<<"\nAverage Marks :"<<average;
 cout<<"\nGrade of student is :"<<grade;
 }
