@@ -50,7 +50,7 @@ cout<<"\nEnter marks in 2nd language:  ";
 cin>>lang2_marks;
 cout<<"\nEnter marks in Computer science:  ";
 cin>>cs_marks;
-cout<<"\nEnter marks in AP Psycology:  ";
+cout<<"\nEnter marks in AP Psychology:  ";
 cin>>psyc_marks;
 calculate();
 }
@@ -63,7 +63,7 @@ cout<<"\nMaths : "<<math_marks;
 cout<<"\nScience : "<<sci_marks;
 cout<<"\nLanguage2 : "<<lang2_marks;
 cout<<"\nComputer Science :"<<cs_marks;
-cout<<"\nAP Psycology : "<<psyc_marks;
+cout<<"\nAP Psychology : "<<psyc_marks;
 cout<<"\nAverage Marks :"<<average;
 cout<<"\nGrade of student is :"<<grade;
 }
